@@ -1,0 +1,170 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+/*Specification start*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+input:focus, button:focus { 
+	outline: none 
+}
+
+button {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0 2.1%;
+    height: 100vh;
+}
+
+.container_full {
+    width: 100%;
+	margin: 0 auto;
+    height: 100vh;
+}
+
+/*Specification end*/
+
+.s0-central {
+    background: url('../img/MARS-v2-s0-central-bg.jpg') no-repeat center center/cover;
+    width: 100%;
+	margin: 0 auto;
+    height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s0-central-header {
+    background: #000;
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 2vw 2.1vw;
+}
+
+.s0-central-header__txt-inner {
+    display: flex;
+}
+
+.s0-central-header__item:first-of-type {
+    margin-right: 10px;
+}
+
+.s0-central-qr {
+    width: 9.5vw;
+    height: 9.1vw;
+    margin-left: 2.1vw;
+    margin-top: 1.6vw;
+    display: block;
+}
+
+.s0-central-logo {
+    margin: 0 auto;
+    display: block;
+    width: 23vw;
+    height: auto;
+    margin-top: 2vw;
+}
+
+.s0-central-bottom-txt {
+    font-size: 2.7vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12.4vw;
+}
+
+@media (max-width: 1200px) { 
+    .s0-central-qr {
+        width: 12.5vw;
+        height: auto;
+    }
+
+    .s0-central-logo {
+        width: 38vw;
+    }
+
+    .s0-central-bottom-txt {
+        margin-top: 18.4vw;
+    }
+}
+
+@media (min-width: 1368px) and (max-width: 1450px) {
+    .s0-central-logo {
+        width: 28vw;
+    }
+
+    .s0-central-bottom-txt {
+        margin-top: 17vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s0-central-logo {
+        margin-top: -2vw;
+    }
+
+    .s0-central-bottom-txt {
+        margin-top: 8vw;
+    }
+
+}
+
+@media (min-width: 2000px) { 
+    .s0-central-bottom-txt {
+        margin-top: 12.4vw;
+    }
+    
+    .s0-central-logo {
+        display: block;
+        margin-top: -5vw;
+    }
+
+    .s0-central-bottom-txt {
+        margin-top: 7.4vw;
+        font-size: 2vw;
+    }
+}
