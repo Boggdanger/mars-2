@@ -31,6 +31,7 @@ p {
 
 a {
 	text-decoration: none;
+    color: inherit;
 }
 
 input:focus, button:focus { 
@@ -53,13 +54,12 @@ input{
 	width: 100%;
 	margin: 0 auto;
     padding: 0 2.1%;
-    height: 100vh;
 }
 
-.container_full {
-    width: 100%;
-	margin: 0 auto;
-    height: 100vh;
+.d-flex {
+    display: flex;
+    flex-direction: column;
+
 }
 
 /*Specification end*/
@@ -67,11 +67,7 @@ input{
 .s0-central {
     background: url('../img/MARS-v2-s0-central-bg.jpg') no-repeat center center/cover;
     width: 100%;
-	margin: 0 auto;
     height: 100vh;
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .s0-central-header {
@@ -166,5 +162,143 @@ input{
     .s0-central-bottom-txt {
         margin-top: 7.4vw;
         font-size: 2vw;
+    }
+}
+
+
+/* MARS-v2-s1-central */
+.s1-central {
+    background: url('../img/MARS-v2-s0-central-bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s1-central-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0.3vw 0 3vw;
+}
+
+.s1-central-score {
+    font-size: 4vw;
+    margin-top: 1vw;
+    display: flex;
+}
+
+.s1-central-info {
+    border: 8px solid #FFFFFF;
+    border-radius: 1.2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.4vw 0.8vw;
+    line-height: 100%;
+}
+
+.s1-central-info__link {
+    text-transform: none;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.s1-central-game {
+    margin: 0 auto;
+    width: 69vw;
+    text-align: center;
+    background: rgba(77, 82, 85, 0.76);
+    outline: 2vw solid rgba(225, 236, 239, 0.3);
+    border-radius: 20vw;
+    font-size: 1.95vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 5vw;
+    padding-top: 8.1vw;
+    padding-bottom: 7.3vw;
+}
+
+.s1-central-game__title {
+    font-size: 4.5vw;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.1vw;
+}
+
+.s1-central-game__txt:first-of-type {
+    margin-bottom: 2vw;
+}
+
+.s1-central-footer {
+    background: #000;
+    padding: 0.6vw 0;
+}
+
+.s1-central-footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s1-central-footer__number {
+    font-size: 1.3vw;
+    font-weight: 700;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #F41C45;
+    border-radius: 50%;
+    border: 0.15vw solid #fff;
+}
+
+.s1-central-footer__txt {
+    font-size: 1.7vw;
+    margin-left: 0.5vw;
+    margin-right: 0.7vw;
+}
+
+.s1-central-footer__img {
+    width: 63px;
+    height: auto;
+}
+
+@media (max-width: 1200px) { 
+    .s1-central-game {
+        margin-top: 11vw;
+    }
+
+    .s1-central-info {
+        border: 5px solid #FFFFFF;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+  
+    .s1-central-game {
+        padding-top: 4.1vw;
+        padding-bottom: 4.3vw;
+        margin-top: 3vw;
+    }
+
+}
+
+@media (min-width: 2000px) { 
+    .s1-central-score {
+        font-size: 3vw;
+    }
+
+    .s1-central-game {
+        padding-top: 2.1vw;
+        padding-bottom: 2.3vw;
+        width: 61vw;
+    }
+
+    .s1-central-game__txt:first-of-type {
+        margin-bottom: 1vw;
     }
 }
