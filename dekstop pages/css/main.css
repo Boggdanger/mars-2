@@ -649,8 +649,8 @@ input{
 
 .s4-central-card-1 {
     background: rgba(71, 31, 10, 0.69);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     height: 100vh;
     padding-top: 5vw;
 }
@@ -705,10 +705,6 @@ input{
     font-weight: 500;
 }
 
-.s4-central-card-1-players__item_no-bg {
-    background: none;
-}
-
 .s4-central-card-1-players__item:not(:last-of-type) {
     margin-bottom: 0.7vw;
 }
@@ -716,7 +712,7 @@ input{
 .s4-central-card-1-players__leaf {
     width: 12vw;
     height: 12vw;
-    background: url(../img/MARS-v2-s4-central-card1-gold_leaf.svg) no-repeat center center/contain;
+    background: url('../img/MARS-v2-s4-central-card1-gold_leaf.svg') no-repeat center center/contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -861,13 +857,207 @@ input{
         font-size: 1.4vw;
     }
 
-    
 }
 
 
+/* MARS-v2-s4-central-card2 */
+.s4-central-card-2 {
+    height: 100vh;
+    display: flex;
+}
 
+.s4-central-card-2-left-part {
+    padding-top: 5vw;
+    padding-left: 2vw;
+}
 
+.s4-centr-card-launch {
+    width: 30vw;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 8.7vw;
+    margin-left: 8vw;
+}
 
+.s4-centr-card-launch__info {
+    width: 14.3vw;
+    height: 2.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #582512;
+    color: #fff;
+    font-size: 1.5vw;
+    border-radius: 20vw;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
+
+.s4-centr-card-launch__number {
+    margin-left: 0.5vw;
+}
+
+.s4-centr-card-launch__title {
+    font-size: 5.2vw;
+    line-height: 98%;
+    margin-top: 1vw;
+    margin-bottom: 0.65vw;
+    letter-spacing: 0.05em;
+}
+
+.s4-centr-card-launch__desc {
+    font-size: 2vw;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 138%;
+    letter-spacing: 0.09em;
+}
+
+.s4-central-card-2-right-part {
+    margin-left: auto;
+    position: relative;
+    padding-left: 10.8vw;
+    overflow: hidden;
+}
+
+.s4-central-card-2-right-part__wrapper {
+    padding-right: 2vw;
+    padding-top: 8vw;
+}
+
+.s4-central-card-2-right-part__item {
+    display: flex;
+    align-items: center;
+    width: 34.2vw;
+    height: 4.2vw;
+    border-radius: 20vw;
+    background: rgba(225, 236, 239, 0.18);
+    padding: 0 1.4vw 0 0.7vw;
+}
+
+.s4-central-card-2-right-part__number {
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #F41C45;
+    border-radius: 50%;
+    border: 0.15vw solid #fff;
+    margin-right: 1.2vw;
+    letter-spacing: 0;
+}
+
+.s4-central-card-2-right-part__txt {
+    font-size: 2vw;
+}
+
+.s4-central-card-2-right-part__item-inner {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.s4-central-card-2-right-part__img-animal {
+    width: 3.8vw;
+    height: 3.8vw;
+    margin-right: 0.5vw;
+}
+
+.s4-central-card-2-right-part__leaf {
+    width: 3.4vw;
+    height: 3.7vw;
+    background: url('../img/MARS-v2-s4-central-card1-gold_leaf.svg') no-repeat center center/contain;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: 700;
+    padding-top: 0.2vw;
+}
+
+.s4-central-card-2-right-part__bg-blur {
+    background: rgba(71, 31, 10, 0.59);
+    position: absolute;
+    top: 0;
+    left: 18px;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+    backdrop-filter: blur(8px);
+    transform: rotate(9.5deg);
+}
+
+@media (max-width: 1200px) { 
+    .s4-centr-card-launch {
+        margin-top: 15.7vw;
+    }
+
+    .s4-central-card-2-right-part {
+        padding-left: 18.8vw;
+    }
+
+    .s4-central-card-2-right-part__wrapper {
+        padding-right: 3vw;
+        padding-top: 15vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-centr-card-launch {
+        margin-top: 3.7vw;
+    }
+
+    .s4-central-card-2-right-part__wrapper {
+        padding-right: 2vw;
+        padding-top: 4vw;
+    }
+
+    .s4-central-card-2-right-part__item {
+        height: 3.9vw;
+    }
+
+    .s4-central-card-2-right-part__number {
+        width: 2.7vw;
+        height: 2.7vw;
+    }
+}
+
+@media (min-width: 2000px) { 
+    .s4-centr-card-launch {
+        margin-top: 2.7vw;
+    }
+
+    .s4-central-card-2-right-part__wrapper {
+        padding-right: 2vw;
+        padding-top: 4vw;
+    }
+
+    .s4-central-card-2-right-part__item {
+        height: 3.2vw; 
+        padding: 0 1.1vw 0 0.4vw;
+    }
+
+    .s4-central-card-2-right-part__item:not(:last-of-type) {
+        margin-bottom: 0.2vw;
+    }
+
+    .s4-central-card-2-right-part__number {
+        width: 2.4vw;
+        height: 2.4vw;
+    }
+
+    .s4-central-card-2-right-part__img-animal {
+        width: 2.8vw;
+        height: 2.8vw;
+    }
+    
+}
 
 
 
@@ -921,4 +1111,8 @@ input{
 
 .bg-purple {
     background: #706FB5;
+}
+
+.item_no-bg {
+    background: none;
 }
