@@ -552,9 +552,7 @@ input{
     .s2-central-roster {
         margin-top: 10.5vw;
     }
-
     
-
     .s2-central-roster__item:not(:last-of-type) {
         margin-bottom: 1vw;
     }
@@ -643,6 +641,11 @@ input{
     }
     
 }
+
+
+
+
+
 
 
 
