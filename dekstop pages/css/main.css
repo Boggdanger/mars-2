@@ -317,18 +317,18 @@ input{
     /* justify-content: space-between; */
 }
 
-.s2-central-time {
+.v2-central-time {
     margin-top: 4.25vw;
     margin-left: 2vw;
 }
 
-.s2-central-time__wrapper {
+.v2-central-time__wrapper {
     display: flex;
     font-size: 4vw;
     line-height: 88%;
 }
 
-.s2-central-time__txt {
+.v2-central-time__txt {
     text-transform: uppercase;
     font-size: 1vw;
     letter-spacing: 0.06em;
@@ -641,6 +641,232 @@ input{
     }
     
 }
+
+/* MARS-v2-s4-central-card1-gold */
+.s4-central-card-1-bg {
+    background: url('../img/MARS-v2-s4-central-card1-gold_bg.jpg') no-repeat center center/cover; 
+}
+
+.s4-central-card-1 {
+    background: rgba(71, 31, 10, 0.69);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    height: 100vh;
+    padding-top: 5vw;
+}
+
+.s4-centr-card-time {
+    margin-left: 3vw;
+}
+
+.s4-centr-card-time__wrapper {
+    display: flex;
+    font-size: 4vw;
+    line-height: 88%;
+}
+
+.s4-centr-card-time__txt {
+    text-transform: uppercase;
+    font-size: 1vw;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    width: 7.5vw;
+    text-align: center;
+}
+
+.s4-central-card-1-title {
+    font-size: 5vw;
+    letter-spacing: 0.08em;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.95);
+    -webkit-text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.95);
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: -1.8vw;
+    text-align: center;
+    line-height: 98%;
+}
+
+.s4-central-card-1-players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.7vw;
+}
+
+.s4-central-card-1-players__item {
+    width: 25vw;
+    height: 5.5vw;
+    border-radius: 20vw;
+    background: rgba(225, 236, 239, 0.18);
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    font-size: 2.85vw;
+    font-weight: 500;
+}
+
+.s4-central-card-1-players__item_no-bg {
+    background: none;
+}
+
+.s4-central-card-1-players__item:not(:last-of-type) {
+    margin-bottom: 0.7vw;
+}
+
+.s4-central-card-1-players__leaf {
+    width: 12vw;
+    height: 12vw;
+    background: url(../img/MARS-v2-s4-central-card1-gold_leaf.svg) no-repeat center center/contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
+    font-weight: 700;
+    padding-top: 1.2vw;
+    margin: 0 4vw;
+}
+
+.s4-central-card-1-winner {
+    display: flex;
+    justify-content: center;
+    margin-left: -7vw;
+    margin-top: 1.4vw;
+}
+
+.s4-central-card-1-winner__player__inner {
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    letter-spacing: 0.08em;
+}
+
+.s4-central-card-1-winner__animal {
+    width: 15vw;
+    height: auto;
+    margin-top: 3vw;
+}
+
+.s4-central-card-1-winner__player {
+    display: flex;
+    align-items: center;
+    font-size: 3.6vw;
+    border-radius: 20vw;
+    background: rgba(225, 236, 239, 0.38);
+    height: 5.5vw;
+    font-weight: 500;
+    width: 39vw;
+    padding-left: 0.7vw;
+    margin-top: 2.45vw;
+    margin-bottom: 1.8vw;
+    letter-spacing: 0.08em;
+}
+
+.s4-central-card-1-winner__number {
+    font-size: 2.2vw;
+    font-weight: 500;
+    width: 4.5vw;
+    height: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #F41C45;
+    border-radius: 50%;
+    border: 0.15vw solid #fff;
+    margin-right: 12px;
+    letter-spacing: 0;
+}
+
+.s4-central-card-1-winner__medal {
+    width: 11vw;
+    height: 11vw;
+}
+
+
+
+@media (max-width: 1200px) { 
+    .s4-central-card-1-players {
+        margin-top: 10.7vw;
+        margin-bottom: 10vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-central-card-1 {
+        padding-top: 2vw;
+    }
+
+    .s4-central-card-1-title {
+        margin: -2.8vw auto 0px;
+    }
+
+    .s4-central-card-1-players__item {
+        height: 5vw;
+        font-size: 2.35vw;
+    }
+
+    .s4-central-card-1-players__leaf {
+        width: 10vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+    
+}
+
+@media (min-width: 2000px) { 
+    .s4-central-card-1 {
+        padding-top: 2vw;
+    }
+
+    .s4-central-card-1-title {
+        margin-top: -3.8vw;
+        font-size: 4vw;
+    }
+    
+    .s4-central-card-1-players {
+        margin-top: 1.7vw;
+    }
+
+    .s4-central-card-1-players__item {
+        width: 24vw;
+        height: 4.5vw;
+        font-size: 2.25vw;
+    }
+
+    .s4-central-card-1-players__leaf {
+        width: 10vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+
+    .s4-central-card-1-winner {
+        margin-top: 2.2vw;
+    }
+
+    .s4-central-card-1-winner__player {
+        font-size: 3vw;
+        height: 4.5vw;
+        width: 35vw;
+    }
+
+    .s4-central-card-1-winner__number {
+        font-size: 2vw;
+        font-weight: 500;
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .s4-central-card-1-winner__player__inner {
+        font-size: 1.4vw;
+    }
+
+    
+}
+
+
+
+
 
 
 
