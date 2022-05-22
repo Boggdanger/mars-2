@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Specification start*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+input:focus, button:focus { 
+	outline: none 
+}
+
+button {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.container {
+	margin: 0 auto;
+    padding: 0 5.1vw;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Specification end*/
+
+/* MARS-v2-s0-device */
+.v2-s0-device {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
+}
+
+.v2-s0-device-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw 3.1vw 0 0;
+}
+
+.v2-s0-device-header__team {
+    font-size: 4.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 13vw;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    border-radius: 0 3vw 5vw 0;
+}
+
+.v2-s0-device-header__question {
+    width: 11vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 5.5vw;
+}
+
+.v2-s0-device-logo {
+    margin: 0 auto;
+    width: 58vw;
+    height: auto;
+    display: block;
+    margin-top: 47vw;
+}
+
+.v2-s0-device-link {
+    display: flex;
+    width: 51vw;
+    height: 12vw;
+    background: #fff;
+    color: #000;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 36vw;
+    font-size: 5vw;
+    border-radius: 20vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) { 
+    .v2-s0-device-logo {
+        margin-top: 68vw;
+    }
+
+    .v2-s0-device-link {
+        margin-top: 56vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-s0-device-header {
+        padding: 2vw 2.35vw 0 0;
+    }
+
+    .v2-s0-device-header__team {
+        font-size: 3.4vw;
+        width: 18vw;
+        height: 9vw;
+        backdrop-filter: blur(6px);
+        border-radius: 0 2vw 4vw 0;
+    }
+
+    .v2-s0-device-header__question {
+        width: 8vw;
+        height: 8vw;
+        font-size: 4.5vw;
+    }
+
+    .v2-s0-device-logo {
+        margin-top: 31vw;
+    }
+
+    .v2-s0-device-link {
+        margin-top: 25vw;
+    }
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-s0-device-logo {
+        margin-top: 47vw;
+    }
+
+    .v2-s0-device-link {
+        margin-top: 42vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .v2-s0-device-logo {
+        margin-top: 37vw;
+    }
+
+    .v2-s0-device-link {
+        margin-top: 37vw;
+    }
+}
+
+/* MARS-v2-s2a-device-cap */
+.s2a-device-cap {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/MARS-v2-s2a-device-cap_bg.jpg') no-repeat center center/cover;
+}
+
+.s2a-device-cap-header {
+    display: flex;
+    align-items: center;
+    padding: 5vw 2.35vw 0 0;
+}
+
+.s2a-device-cap-header__team {
+    font-size: 4.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 13vw;
+    background: rgba(115, 81, 5, 0.46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    border-radius: 0 3vw 5vw 0;
+}
+
+.s2a-device-cap-header__title {
+    letter-spacing: -0.01em;
+    font-size: 12.6vw;
+    margin-left: 4vw;
+    font-weight: 700;
+}
+
+.s2a-device-cap-header__question {
+    width: 11vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(115, 81, 5, 0.46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 5.5vw;
+    margin-left: auto;
+}
+
+.s2a-device-cap-subhead {
+    display: flex;
+    margin-top: 3vw;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.s2a-device-cap-close__score {
+    font-weight: 100;
+    font-size: 9vw;
+    line-height: 0.8em;
+    margin-bottom: 1.3vw;
+}
+
+.s2a-device-cap-close__desc,
+.s2a-device-cap-amount__desc {
+    font-size: 2.9vw;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.s2a-device-cap-subhead-title {
+    width: 38.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-size: 5.4vw;
+    line-height: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.s2a-device-cap-subhead-title::before,
+.s2a-device-cap-subhead-title::after {
+    content: '';
+    width: 1px;
+    height: 5.2vw;
+    margin-top: -3vw;
+    display: block;
+    background: #fff;
+}
+
+.s2a-device-cap-amount {
+    width: 21vw;
+}
+
+.s2a-device-cap-amount__money {
+    font-size: 11vw;
+    display: flex;
+    align-items: center;
+    line-height: 0.8em;
+    letter-spacing: 0.05em;
+    color: #6DE62F;
+    text-shadow: 0px 0px 5px #69E62F;
+    margin-top: 1vw;
+}
+
+.s2a-device-cap-amount__symb {
+    font-size: 5.5vw;
+}
+
+.s2a-device-cap-nomoney {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-left: -7vw;
+    height: 11vw;
+}
+
+.s2a-device-cap-nomoney__icon {
+    width: 5vw;
+    height: auto;
+    margin-right: 2vw;
+}
+
+.s2a-device-cap-nomoney__txt {
+    text-align: center;
+    font-size: 3.7vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s2a-device-cap-nomoney__txt span {
+    display: block;
+}
+
+.s2a-device-cap-list__item {
+    display: flex;
+    align-items: center;
+    background: rgba(201, 187, 156, 0.52);
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    height: 21vw;
+    border-radius: 3vw;
+}
+
+.s2a-device-cap-list__item {
+    margin-bottom: 2vw;
+}
+
+.s2a-device-cap-list__name {
+    width: 33vw;
+    text-align: center;
+    color: #E1ECEF;
+    font-size: 5.2vw;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+}
+
+.s2a-device-cap-list__price {
+    width: 25vw;
+    height: 14vw;
+    position: relative;
+    background: rgba(41, 41, 41, 0.84);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12.5vw;
+    letter-spacing: 0.13em;
+    color: #6DE62F;
+    text-shadow: 0px 0px 10px #69E62F;
+    padding-right: 1vw;
+}
+
+.s2a-device-cap-list__sym {
+    font-size: 4vw;
+    position: absolute;
+    left: 3vw;
+    top: 5.2vw;
+}
+
+.s2a-device-cap-list__btn {
+    margin-left: 3vw;
+    width: 23vw;
+    text-transform: uppercase;
+    background: #fff;
+    height: 5.2vh;
+    border-radius: 20vw;
+    color: #7D715A;
+    font-weight: 700;
+    font-size: 4.4vw;
+    letter-spacing: 0.08em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2a-device-cap-list__dollar {
+    font-weight: 400;
+    font-size: 3.4vw;
+    margin-left: 2vw;
+}
+
+.s2a-device-cap-list__btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.s2a-device-cap-list__btn-bottom {
+    width: 23vw;
+    text-transform: uppercase;
+    background: #BB2323;
+    height: 5.2vh;
+    border-radius: 20vw;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4.4vw;
+    letter-spacing: 0.08em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    box-shadow: 0px 0px 10px #AE4646;
+    text-shadow: 0px 0px 5px #FFFFFF;
+}
+
+.s2a-device-cap-list__btn-bottom_green {
+    background: #53C11B;
+    box-shadow: 0px 0px 10px #53C11B;
+}
+
+.s2a-device-cap-list__btn-bottom:first-of-type {
+    margin-right: 4vw;
+}
+
+.s2a-device-cap-mission {
+    margin-top: 6vw;
+}
+
+.s2a-device-cap-mission__title {
+    text-align: center;
+    font-size: 4vw;
+    letter-spacing: 0.06em;
+    margin-bottom: 3vw;
+}
+
+.s2a-device-cap-mission__imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2a-device-cap-mission__img-inner {
+    width: 17vw;
+    height: 17vw;
+}
+
+.s2a-device-cap-mission__img-inner:last-of-type {
+    width: 14.5vw;
+    height: 14.9vw;
+}
+
+.s2a-device-cap-mission__img-item {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.s2a-device-cap-mission__line {
+    width: 3vw;
+    height: 0.26vw;
+    background: #fff;
+}
+
+.s2a-device-cap-bot-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5vw;
+}
+
+.s2a-device-cap-bot-team__number {
+    font-size: 3vw;
+    width: 5.2vw;
+    height: 5.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #F41C45;
+    border-radius: 50%;
+    border: 0.15vw solid #fff;
+}
+
+.s2a-device-cap-bot-team__txt {
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+    font-size: 4.5vw;
+}
+
+.s2a-device-cap-bot-team__img {
+    width: 8vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) { 
+    .s2a-device-cap-subhead {
+        margin-top: 8vw;
+    }
+
+    .s2a-device-cap-nomoney {
+        height: 17vw;
+    }
+
+    .s2a-device-cap-mission {
+        margin-top: 20vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .s2a-device-cap-header {
+        padding: 2vw 2.35vw 0 0;
+    }
+
+    .s2a-device-cap-header__team {
+        font-size: 3.4vw;
+        width: 18vw;
+        height: 9vw;
+        backdrop-filter: blur(6px);
+        border-radius: 0 2vw 4vw 0;
+    }
+
+    .s2a-device-cap-subhead {
+        margin-top: 3vw;
+    }
+
+    .s2a-device-cap-header__title {
+        font-size: 8.6vw;
+        margin-left: 14vw;
+    }
+
+    .s2a-device-cap-header__question {
+        width: 8vw;
+        height: 8vw;
+        font-size: 4.5vw;
+    }
+
+    .s2a-device-cap-close__score {
+        font-size: 7.6vw;
+    }
+
+    .s2a-device-cap-subhead-title {
+        width: 44.5vw;
+        margin-left: 3vw;
+        font-size: 5.0vw;
+    }
+
+    .s2a-device-cap-nomoney__icon {
+        width: 3vw;
+    }
+
+    .s2a-device-cap-nomoney__txt {
+        font-size: 2.3vw;
+    }
+
+    .s2a-device-cap-amount__money {
+        font-size: 8vw;
+        justify-content: flex-end;
+    }
+
+    .s2a-device-cap-nomoney {
+        height: 11vw;
+        margin-top: 0vw;
+    }
+
+    .s2a-device-cap-list__item {
+        margin-bottom: 1vw;
+        height: 13vw;
+    }
+
+    .s2a-device-cap-list__price {
+        width: 25vw;
+        height: 7vw;
+        font-size: 6.5vw;
+    }
+
+    .s2a-device-cap-list__sym {
+        top: 1.2vw;
+    }
+
+    .s2a-device-cap-mission {
+        margin-top: 6vw;
+    }
+
+    .s2a-device-cap-list__btn-wrapper {
+        margin-top: 4vw;
+    }
+
+    .s2a-device-cap-mission__img-inner {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .s2a-device-cap-mission__img-inner:last-of-type {
+        width: 10.5vw;
+        height: 10.9vw;
+    }
+
+    .s2a-device-cap-mission__title {
+        margin-bottom: 3vw;
+    }
+
+    .s2a-device-cap-bot-team__number {
+        font-size: 2.4vw;
+        width: 4.2vw;
+        height: 4.2vw;
+    }
+
+    .s2a-device-cap-bot-team__txt {
+        font-size: 2.5vw;
+    }
+
+    .s2a-device-cap-bot-team__img {
+        width: 6vw;
+    }
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .s2a-device-cap-subhead {
+        margin-top: 2vw;
+    }
+
+    .s2a-device-cap-nomoney {
+        margin-top: 0vw;
+    }
+
+    .s2a-device-cap-list__item {
+        height: 18vw;
+    }
+
+    .s2a-device-cap-mission {
+        margin-top: 10vw;
+    }
+}
