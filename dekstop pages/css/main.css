@@ -1207,8 +1207,256 @@ input{
     }
 }
 
+/* MARS-v2-s5-central-card1 */
+.s4-central-card-1_padding {
+    padding-top: 11vw;
+    position: relative;
+}
+
+.s4-central-card-1-winner_margin {
+    margin-left: 8vw;
+}
+
+.animal-1-absolute {
+    position: absolute;
+    width: 15vw;
+    height: 12vw;
+    object-fit: contain;
+    top: 2vw;
+    left: 6vw;
+}
+
+.animal-2-absolute {
+    position: absolute;
+    width: 9.8vw;
+    height: 7vw;
+    object-fit: contain;
+    top: 15vw;
+    left: 3vw;
+}
+
+.animal-3-absolute {
+    position: absolute;
+    width: 11.8vw;
+    height: 7vw;
+    object-fit: contain;
+    top: 27vw;
+    left: 3vw;
+}
+
+.animal-4-absolute {
+    position: absolute;
+    width: 14.8vw;
+    height: 8vw;
+    object-fit: contain;
+    bottom: 11vw;
+    left: 3vw;
+}
+
+.animal-5-absolute {
+    position: absolute;
+    width: 8.8vw;
+    height: 8vw;
+    object-fit: contain;
+    bottom: 4vw;
+    left: 19vw;
+}
+
+.animal-6-absolute {
+    position: absolute;
+    width: 10.8vw;
+    height: 10vw;
+    object-fit: contain;
+    top: 4vw;
+    right: 4vw;
+}
+
+.animal-7-absolute {
+    position: absolute;
+    width: 11.8vw;
+    height: 13vw;
+    object-fit: contain;
+    top: 10vw;
+    right: 11vw;
+}
+
+.animal-8-absolute {
+    position: absolute;
+    width: 6.2vw;
+    height: 9vw;
+    object-fit: contain;
+    top: 22vw;
+    right: 5vw;
+}
+
+.animal-9-absolute {
+    position: absolute;
+    width: 9.2vw;
+    height: 9vw;
+    object-fit: contain;
+    bottom: 12vw;
+    right: 4.4vw;
+}
+
+.animal-10-absolute {
+    position: absolute;
+    width: 8.2vw;
+    height: 11vw;
+    object-fit: contain;
+    bottom: 3vw;
+    right: 9.4vw;
+}
 
 
+@media (max-width: 1200px) { 
+
+    .animal-2-absolute {
+        top: 20vw;
+    }
+
+    .animal-3-absolute {
+        top: 37vw;
+    }
+
+    .animal-4-absolute {
+        bottom: 14vw;
+    }
+
+    .animal-7-absolute {
+        top: 16vw;
+    }
+
+    .animal-8-absolute {
+        top: 32vw;
+    }
+
+    .animal-9-absolute {
+        bottom: 19vw;
+    }
+
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) {
+    .s4-central-card-1_padding {
+        padding-top: 9vw;
+    }
+
+    .animal-3-absolute {
+        top: 38vw;
+    }
+
+    .animal-8-absolute {
+        top: 18vw;
+        right: 4vw;
+    }
+
+}
+
+@media (min-width: 2000px) { 
+    .animal-3-absolute {
+        position: absolute;
+        width: 11.8vw;
+        height: 7vw;
+        object-fit: contain;
+        top: 33vw;
+        left: 7vw;
+    }
+
+    .animal-8-absolute {
+        position: absolute;
+        width: 5.2vw;
+        height: 8vw;
+        object-fit: contain;
+        top: 14vw;
+        right: 3vw;
+    }
+
+}
+
+/* MARS-v2-s5-central-card2 */
+.s4-centr-card-launch_s5 {
+    width: 33vw;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 14.7vw;
+    margin-left: 0vw;
+    position: absolute;
+    left: 165px;
+}
+
+.s4-centr-card-launch__info_s5 {
+    width: 10.3vw;
+}
+
+.s4-centr-card-launch__desc_s5 {
+    font-size: 1.9vw;
+}
+
+.s4-central-card-2-right-part_s5 {
+    width: 64%;
+    padding-left: 8.8vw;
+}
+
+.s5-central-card-2-right-part__item {
+    display: flex;
+    align-items: center;
+    width: 53.2vw;
+    height: 4.2vw;
+    border-radius: 20vw;
+    background: rgba(225, 236, 239, 0.18);
+    padding: 0 1.4vw 0 0.7vw;
+}
+
+.s4-central-card-2-right-part__animal-wrapper {
+    display: flex;
+    width: 28vw;
+}
+
+.s5__img-animal {
+    width: 3.8vw;
+    height: 3.8vw;
+}
+
+@media (max-width: 1200px) { 
+    .s4-centr-card-launch_s5 {
+        margin-top: 20.7vw;
+        left: 28px;
+    }
+
+    .s4-central-card-2-right-part_s5 {
+        width: 71%;
+        padding-left: 13.8vw;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .s4-centr-card-launch_s5 {
+        margin-top: 12.7vw;
+        left: 25px;
+    }
+
+    .s4-central-card-2-right-part_s5 {
+        width: 68%;
+        padding-left: 10.8vw;
+    }
+}
+
+@media (min-width: 2000px) { 
+    .s4-centr-card-launch_s5 {
+        margin-top: 5.7vw;
+        left: 25px;
+    }
+
+    .s5-central-card-2-right-part__item {
+        height: 3.4vw;
+        padding: 0 1.4vw 0 0.5vw;
+    }
+
+    .s5__img-animal {
+        width: 3.2vw;
+        height: 3.2vw;
+    }
+}
 
 
 
