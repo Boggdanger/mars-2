@@ -254,6 +254,7 @@ input{
     font-size: 9vw;
     line-height: 0.8em;
     margin-bottom: 1.3vw;
+    text-align: center;
 }
 
 .s2a-device-cap-close__desc,
@@ -354,6 +355,7 @@ input{
     font-size: 5.2vw;
     letter-spacing: 0.04em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .s2a-device-cap-list__price {
@@ -455,6 +457,7 @@ input{
 .s2a-device-cap-mission__img-inner {
     width: 17vw;
     height: 17vw;
+    position: relative;
 }
 
 .s2a-device-cap-mission__img-inner:last-of-type {
@@ -642,4 +645,58 @@ input{
     .s2a-device-cap-mission {
         margin-top: 10vw;
     }
+}
+
+/* MARS-v2-s2a-device-cappil */
+.s2a-device-cap-header__title-inner {
+    display: flex;
+    font-size: 8vw;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s2a-device-cap-header__title-one {
+    margin-left: 2vw;
+}
+
+.s2a-device-cap-header__title-one_bg {
+    width: 25vw;
+    height: 12vw;
+    background: #055873;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+    margin-left: 4vw;
+}
+
+.s2a-device-cap-list__btn-bottom_border {
+    color: #78774E;
+    border: 1px solid #78774E;
+    background: none;
+    box-shadow: 0px 0px 0px #ae4646;
+    text-shadow: none;
+}
+
+.s2a-device-cap-mission__btn-none {
+    position: absolute;
+    bottom: -3vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6vw;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px #AE4646);
+}
+
+.s2a-device-cap-mission__btn-none_bottom {
+    bottom: -4vw;
+}
+
+.s2a-device-cap-mission__btn-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
