@@ -33,3 +33,9 @@
 + https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s2a-device-veteng.html
 + https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s2b-device.html
 + https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s3-device-success.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s4-device-GUIDE.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s4-device.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s5-device-GUIDE2.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-s5-device.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-team-popup.html
++ https://boggdanger.github.io/mars-2/device%20pages/MARS-v2-team.html
