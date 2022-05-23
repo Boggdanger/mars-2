@@ -1965,6 +1965,542 @@ input{
     letter-spacing: 0.08em;
 }
 
+/* MARS-v2-team */
+.v2-team-bg-bg-img {
+    background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
+}
+
+.v2-team-bg {
+    width: 100%;
+    height: 100vh;
+    background: rgba(81, 81, 81, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.sn-device-cap-header__link {
+    display: flex;
+    width: 27vw;
+    height: 12vw;
+    background: #fff;
+    color: #000;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    border-radius: 20vw;
+    margin-left: 5vw;
+}
+
+.sn-device-cap-header__player { 
+    text-align: right;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 5vw;
+    margin-right: 7vw;
+}
+
+.v2-team-content {
+    padding-top: 4vw;
+}
+
+.v2-team-content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.v2-team-content-list__line {
+    width: 15vw;
+    height: 0.2vw;
+    background: #fff;
+    margin-bottom: 4vw;
+}
+
+.v2-team-content-list__player {
+    text-align: center;
+    font-size: 5.2vw;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.75vw;
+}
+
+.v2-team-leaf {
+    width: 33vw;
+    height: 33vw;
+    background: url('../img/MARS-v2-s4-central-card1-gold_leaf.svg') no-repeat center center/contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.5vw;
+    font-weight: 700;
+    padding-top: 2.2vw;
+    margin: 0 auto;
+    margin-top: 9vw;
+}
+
+.v2-team-text {
+    text-align: center;
+    font-size: 4.7vw;
+    letter-spacing: 0.08em;
+    margin-top: 1vw;
+}
+
+.v2-team-btns {
+    margin-top: 13vw;
+}
+
+.v2-team-btns__btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62vw;
+    height: 12vw;
+    background: #fff;
+    color: #000;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    font-size: 5vw;
+    border-radius: 20vw;
+}
+
+.v2-team-btns__btn:last-child {
+    background: #BB2323;
+    color: #fff;
+    margin-top: 2vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) { 
+    .v2-team-content {
+        padding-top: 11vw;
+    }
+
+    .v2-team-leaf {
+        margin-top: 17vw;
+    }
+
+    .v2-team-btns {
+        margin-top: 40vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-team-content {
+        padding-top: 3vw;
+    }
+
+    .v2-team-content-list__player {
+        font-size: 4.2vw;
+        margin-bottom: 0.75vw;
+    }
+
+    .v2-team-leaf {
+        margin-top: 1vw;
+        width: 26vw;
+        height: 26vw;
+        font-size: 9.5vw;
+    }
+
+    .v2-team-text {
+        font-size: 3.7vw;
+    }
+
+    .v2-team-btns {
+        margin-top: 5vw;
+    }
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-team-leaf {
+        margin-top: 9vw;
+    }
+
+    .v2-team-btns {
+        margin-top: 11vw;
+    }
+}
+
+/* MARS-v2-team-popup */
+.v2-team-bg_flex {
+    display: flex;
+    align-items: center;
+}
+
+.v2-team-popup__title {
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    width: 50vw;
+    font-size: 9vw;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+}
+
+.v2-team-popup__txt {
+    text-align: center;
+    font-size: 6.5vw;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    margin-top: 4vw;
+}
+
+.v2-team-btns_margin {
+    margin-top: 9vw;
+}
+
+
+@media (min-width: 359px) and (min-height: 700px) { 
+    .v2-team-btns_margin {
+        margin-top: 13vw;
+    }
+}
+
+/* MARS-v2-help */
+.MARS-v2-help {
+    background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
+}
+
+.MARS-v2-help-inner {
+    width: 100%;
+    height: 100vh;
+    background: rgba(81, 81, 81, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.v2-help-contant {
+    text-align: center;
+    padding-top: 7vw;
+    height: 135vw;
+}
+
+.v2-help-contant__title {
+    font-size: 7.5vw;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 5vw;
+}
+
+.v2-help-contant__title-line {
+    width: 15vw;
+    height: 0.4vw;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 6.4vw;
+}
+
+.v2-help-contant__txt {
+    font-size: 5vw;
+    letter-spacing: 0.08em;
+    width: 68vw;
+    margin: 0 auto;
+    line-height: 158%;
+}
+
+.v2-help-contant__txt:not(:last-of-type) {
+    margin-bottom: 8vw;
+}
+
+.v2-help-contant__img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6vw;
+    margin-top: 2vw;
+}
+
+.v2-help-contant__img-item {
+    width: 18vw;
+}
+
+.v2-help-buttons {
+    margin-top: 5vw;
+    height: 37vw;
+}
+
+.v2-help-buttons-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #3C3E3E;
+    width: 61vw;
+    margin: 0 auto;
+    border-radius: 20vw;
+    height: 12vw;
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+.v2-help-buttons-item:last-child {
+    background: none;
+    border: 0.7vw solid #fff;
+    margin-top: 2.2vw;
+    color: #fff;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-help-contant__txt {
+        font-size: 3.5vw;
+    }
+
+    .v2-help-contant__txt:not(:last-of-type) {
+        margin-bottom: 4vw;
+    }
+
+    .v2-help-contant__img-wrapper {
+        margin-top: 3vw;
+    }
+    
+    .v2-help-buttons {
+        margin-top: 5vw;
+        height: 40vw;
+    }
+
+    .v2-help-buttons-item {
+        height: 10vw;
+    }
+
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-help-contant__txt:not(:last-of-type) {
+        margin-bottom: 4vw;
+    }
+
+    .v2-help-contant__img-wrapper {
+        margin-top: 4vw;
+    }
+}
+
+/* MARS-v2-help-cap */
+.MARS-v2-help-cap {
+    background: url('../img/help-cap_bg-2.jpg') no-repeat center center/cover;
+}
+
+.MARS-v2-help-cap-inner {
+    width: 100%;
+    height: 100vh;
+    background: rgba(178, 149, 83, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.v2-help-contant__txt-cap {
+    font-size: 5vw;
+    letter-spacing: 0.08em;
+    width: 68vw;
+    margin: 0 auto;
+    line-height: 158%;
+}
+
+.v2-help-contant__txt-cap_margin {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.v2-help-contant__dollar {
+    font-size: 13vw;
+    color: #6DE62F;
+    text-shadow: 0px 0px 7px #6de62f;
+    margin-top: 2vw;
+    display: block;
+}
+
+.v2-help-contant__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #53C11B;
+    color: #fff;
+    width: 37vw;
+    margin: 0 auto;
+    border-radius: 20vw;
+    height: 9vw;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-size: 4.5vw;
+    box-shadow: 0px 0px 10px #53c11b;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.v2-help-contant__btn_red {
+    background: #BB2323;
+    box-shadow: 0px 0px 10px #BB2323;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-help-contant__txt-cap  {
+        font-size: 3.5vw;
+    }
+
+    .v2-help-contant__dollar {
+        font-size: 9vw;
+    }
+
+}
+
+/* MARS-v2-help-vet */
+.MARS-v2-help-vet {
+    background: url('../img/MARS-v2-help-vet.jpg') no-repeat center center/cover;
+}
+
+.MARS-v2-help-vet-inner {
+    width: 100%;
+    height: 100vh;
+    background: rgba(56, 150, 30, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.v2-help-contant__image {
+    margin: 0 auto;
+    width: 20vw;
+    height: 20vw;
+    object-fit: contain;
+}
+
+.v2-help-contant__txt-cap_vet {
+    width: 81vw;
+}
+
+.v2-help-contant__leaf {
+    width: 16vw;
+    height: 16vw;
+    background: url('../img/white-leaf-1.png') no-repeat center center/contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5vw;
+    font-weight: 700;
+    padding-top: 2.2vw;
+    margin: 0 auto;
+}
+
+.v2-help-contant__circle {
+    background: #fff;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    color: #318523;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 7vw;
+    padding-top: 0.3vw;
+    margin: 0 auto;
+    margin-top: 4vw;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-help-contant__circle {
+        width: 10vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-top: 1vw;
+    }
+
+    .v2-help-contant__image {
+        width: 16vw;
+        height: 14vw;
+    }
+
+    .v2-help-contant__leaf {
+        width: 13vw;
+        height: 13vw;
+        font-size: 5.5vw;
+        padding-top: 1.2vw;
+    }
+}
+
+/* MARS-v2-help-pil */
+.MARS-v2-help-pil {
+    background: url('../img/MARS-v2-help-pil__bg.png') no-repeat center center/cover;
+}
+
+.MARS-v2-help-pil-inner {
+    width: 100%;
+    height: 100vh;
+    background: rgba(47, 126, 188, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.v2-help-contant__circle_blue {
+    color: #0E6EA7;
+}
+
+.v2-help-contant__drop {
+    background: url('../img/white-drop.svg') no-repeat center center/contain;
+    padding-top: 3vw;
+    padding-right: 0.5vw;
+    color: #0E6EA7;
+    width: 13vw;
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 5.6vw;
+    padding-top: 2.7vw;
+    padding-left: 0.8vw;
+    margin: 0 auto;
+}
+
+/* MARS-v2-help-eng */
+.MARS-v2-help-eng {
+    background: url('../img/MARS-v2-help-eng__bg.png') no-repeat center center/cover;
+}
+
+.MARS-v2-help-eng-inner {
+    width: 100%;
+    height: 100vh;
+    background: rgba(178, 38, 18, 0.52);
+    backdrop-filter: blur(2px);
+}
+
+.v2-help-contant__fuel {
+    background: url('../img/barrel__11.svg') no-repeat center center/contain;
+    height: 15vw;
+    position: relative;
+    width: 14vw;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}
+
+.v2-help-contant__fuel_full {
+    background: url('../img/barell__222.svg') no-repeat center center/contain;
+}
+
+.v2-help-contant__drop_red {
+    color: #B24C0F;
+}
+
+.v2-help-contant__fuel-number {
+    position: absolute;
+    top: 5.4vw;
+    font-size: 5vw;
+    left: 4vw;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-help-contant__fuel {
+        height: 12vw;
+    }
+
+    .v2-help-contant__fuel-number {
+        position: absolute;
+        top: 4.4vw;
+        font-size: 4vw;
+        left: 4.7vw;
+    }
+}
 
 
 
