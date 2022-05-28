@@ -150,6 +150,10 @@ input{
 }
 
 @media (min-width: 2000px) { 
+    .s0-central {
+        background: url('../img/MARS-v2-s0-central-bg_full.jpg') no-repeat center center/cover;
+    }
+
     .s0-central-bottom-txt {
         margin-top: 12.4vw;
     }
@@ -288,6 +292,10 @@ input{
 }
 
 @media (min-width: 2000px) { 
+    .s1-central {
+        background: url('../img/MARS-v2-s0-central-bg_f.jpg') no-repeat center center/cover;
+    }
+
     .s1-central-score {
         font-size: 3vw;
     }
@@ -421,7 +429,8 @@ input{
 
 .s2-central-rockets__animal {
     width: 5vw;
-    height: auto;
+    height: 5vw;
+    position: relative;
 }
 
 .s2-central-rockets__planet {
@@ -532,7 +541,22 @@ input{
 
 .s2-central-bottom-animals__item {
     width: 6.6vw;
-    height: auto;
+    height: 6.6vw;
+    position: relative;
+}
+
+.s2-central-bottom-animals__item-frame {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #E1ECEF;
+    position: absolute;
+}
+
+.s2-central-bottom-animals__item-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .s2-central-bottom-animals__item:not(:last-of-type) {
@@ -549,12 +573,16 @@ input{
 }
 
 @media (max-width: 1200px) { 
-    .s2-central-roster {
+    /* .s2-central-roster {
         margin-top: 10.5vw;
+    } */
+
+    .s2-central-roster {
+        margin-top: 4.5vw;
     }
     
     .s2-central-roster__item:not(:last-of-type) {
-        margin-bottom: 1vw;
+        margin-bottom: 0.5vw;
     }
 
     .s2-central-rockets {
@@ -575,10 +603,55 @@ input{
     }
 }
 
+@media (min-width: 1279px) and (max-width: 1439px) { 
+    .s2-central-roster {
+        margin-top: 1.5vw;
+    }
+
+    .s2-central-roster__number {
+        font-size: 1vw;
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media (min-width: 1439px) and (max-width: 1919px) { 
+    .s2-central-roster {
+        margin-top: 2.5vw;
+    }
+
+    .s2-central-rockets__wrapper {
+        margin-top: 24px;
+    }
+}
+
 @media (min-width: 1450px) and (max-width: 1900px) { 
 
+    .v2-central-time {
+        margin-top: 3.25vw;
+    }
+
+    .v2-central-time {
+        margin-top: 2.25vw;
+    }
+
+    .s2-central-roster {
+        margin-top: 1.5vw;
+    }
+
+    .s2-central-roster__number {
+        font-size: 1vw;
+        width: 1.7vw;
+        height: 1.7vw;
+    }
+
+    .s2-central-bottom-animals__item {
+        width: 4vw;
+        height: 4vw;
+    }
+
     .s2-central-rockets__item:not(:last-of-type) {
-        margin-bottom: 6vw;
+        margin-bottom: 5vw;
     }
 
     .s2-central-mission-title {
@@ -598,15 +671,23 @@ input{
     .s2-central-total__sum {
         font-size: 3.3vw;
     }
-
-    .s2-central-bottom-animals__item {
-        width: 5.6vw;
-    }
     
 
 }
 
 @media (min-width: 2000px) { 
+    .v2-central-time {
+        margin-top: 2.25vw;
+    }
+
+    .s2-central-roster {
+        margin-top: 0.5vw;
+    }
+
+    .s2-central-rockets__wrapper {
+        margin-top: -23px;
+    }
+
     .s2-central-rockets__item:not(:last-of-type) {
         margin-bottom: 4vw;
     }
@@ -638,6 +719,7 @@ input{
 
     .s2-central-bottom-animals__item {
         width: 5.6vw;
+        height: 5.6vw;
     }
     
 }
