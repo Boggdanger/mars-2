@@ -8,6 +8,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
     background: #000;
+    height: 100vh;
 }
 
 * {
@@ -71,7 +72,7 @@ input{
 .v2-s0-device {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
 }
 
@@ -113,7 +114,7 @@ input{
 .v2-s0-device-logo {
     margin: 0 auto;
     width: 58vw;
-    /* height: auto; */
+    height: auto;
     display: block;
     margin-top: 47vw;
 }
@@ -198,7 +199,7 @@ input{
 .s2a-device-cap {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: url('../img/MARS-v2-s2a-device-cap_bg.jpg') no-repeat center center/cover;
 }
 
@@ -369,7 +370,7 @@ input{
 
 .s2a-device-cap-nomoney__icon {
     width: 5vw;
-    /* height: auto; */
+    height: auto;
     margin-right: 2vw;
 }
 
@@ -798,7 +799,7 @@ input{
     right: 0;
     margin: 0 auto;
     width: 6vw;
-    /* height: auto; */
+    height: auto;
     filter: drop-shadow(0px 0px 10px #AE4646);
     z-index: 2;
 }
@@ -840,7 +841,7 @@ input{
 .s2a-device-cap-vet {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: url('../img/MARS-v2-s2a-device-vet-popup_bg.png') no-repeat center center/cover;
 }
 
@@ -1220,7 +1221,7 @@ input{
 
 .s2a-device-slider__img {
     width: 100%;
-    /* height: auto; */
+    height: auto;
     object-fit: contain;
 }
 
@@ -1413,7 +1414,7 @@ input{
 .s2a-device-cap-pil {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: url('../img/MARS-v2-s2a-device-pil-popup_bg.png') no-repeat center center/cover;
 }
 
@@ -1478,7 +1479,7 @@ input{
 .s2a-device-slider__icon-arrow {
     position: absolute;
     width: 2.5vw;
-    /* height: auto; */
+    height: auto;
     object-fit: contain;
     left: -3vw;
 }
@@ -1586,7 +1587,7 @@ input{
 .s2a-device-engvet {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: url('../img/MARS-v2-s2a-device-engvet_bg.png') no-repeat center center/cover;
 }
 
@@ -1857,7 +1858,7 @@ input{
 .sn-device {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(71, 31, 10, 0.69);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2442,7 +2443,7 @@ input{
 .v2-team-bg {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(81, 81, 81, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2635,7 +2636,7 @@ input{
 .MARS-v2-help-inner {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(81, 81, 81, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2716,7 +2717,7 @@ input{
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
 }
 
 @media (min-width: 359px) and (min-height: 779px) { 
@@ -2794,7 +2795,7 @@ input{
 .MARS-v2-help-cap-inner {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(178, 149, 83, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2862,7 +2863,7 @@ input{
 .MARS-v2-help-vet-inner {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(56, 150, 30, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2938,7 +2939,7 @@ input{
 .MARS-v2-help-pil-inner {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(47, 126, 188, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -2973,7 +2974,7 @@ input{
 .MARS-v2-help-eng-inner {
     width: 100%;
     height: 100vh;
-    /* height: auto; */
+    height: auto;
     background: rgba(178, 38, 18, 0.52);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
