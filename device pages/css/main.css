@@ -2800,6 +2800,10 @@ input{
 }
 
 /* MARS-v2-help-cap */
+.MARS-v2-help-cap_bg {
+    background:#6e5f3a;
+}
+
 .MARS-v2-help-cap {
     background: url('../img/help-cap_bg-2.jpg') no-repeat center center/cover;
 }
