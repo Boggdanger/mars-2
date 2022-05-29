@@ -2688,7 +2688,7 @@ input{
 
 .v2-help-buttons {
     margin-top: 5vw;
-    height: 37vw;
+    height: 37.5vw;
 }
 
 .v2-help-buttons-item {
@@ -2728,12 +2728,16 @@ input{
     .v2-help-contant__title {
         margin-bottom: 24vw;
     }
+
+    .v2-help-buttons {
+        margin-top: 24vw;
+    }
     
 }
 
 @media (min-width: 767px) and (min-height: 1023px) { 
     .v2-help-contant {
-        height: 135vw;
+        height: 100vw;
     }
 
     .v2-help-contant__title {
@@ -2754,7 +2758,7 @@ input{
     
     .v2-help-buttons {
         margin-top: 5vw;
-        height: 40vw;
+        height: 28.23vw;
     }
 
     .v2-help-buttons-item {
@@ -2779,11 +2783,19 @@ input{
     .v2-help-contant__img-wrapper {
         margin-top: 4vw;
     }
+
+    .v2-help-buttons {
+        margin-top: 9vw;
+    }
 }
 
 @media (min-width: 799px) and (min-height: 1279px) { 
     .v2-help-contant__title_margin-800 {
         margin-bottom: 17vw;
+    }
+
+    .v2-help-buttons {
+        margin-top: 0.6vw;
     }
 }
 
