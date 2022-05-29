@@ -154,6 +154,7 @@ input{
         width: 18vw;
         height: 9vw;
         backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(3px);
         border-radius: 0 2vw 4vw 0;
     }
 
@@ -225,6 +226,7 @@ input{
     background: rgba(115, 81, 5, 0.46);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-weight: 700;
@@ -256,6 +258,7 @@ input{
     background: rgba(115, 81, 5, 0.46);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border-radius: 50%;
     font-weight: 500;
     font-size: 5.5vw;
@@ -386,7 +389,8 @@ input{
     align-items: center;
     background: rgba(201, 187, 156, 0.52);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(10px);
     height: 21vw;
     border-radius: 3vw;
 }
@@ -616,6 +620,7 @@ input{
         width: 18vw;
         height: 9vw;
         backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
         border-radius: 0 2vw 4vw 0;
     }
 
@@ -860,6 +865,7 @@ input{
     border-radius: 2vw;
     background: rgba(152, 226, 140, 0.52);
     box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 50%);
+    -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     width: 64vw;
     height: 82vw;
@@ -1093,6 +1099,7 @@ input{
     background: rgba(152, 226, 140, 0.52);
     box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 50%);
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     padding-top: 4vw;
     padding-left: 5vw;
     position: relative;
@@ -1612,6 +1619,7 @@ input{
     background: rgba(211, 93, 93, 0.52);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     width: 39vw;
     display: flex;
     flex-direction: column;
@@ -1846,6 +1854,7 @@ input{
     height: 100vh;
     background: rgba(71, 31, 10, 0.69);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .sn-device-cap-header {
@@ -1865,6 +1874,7 @@ input{
     background: rgba(108, 0, 0, 0.67);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-weight: 700;
@@ -1880,6 +1890,7 @@ input{
     background: rgba(108, 0, 0, 0.67);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border-radius: 50%;
     font-weight: 500;
     font-size: 5.5vw;
@@ -2029,6 +2040,7 @@ input{
     background: rgba(83, 193, 27, 0.52);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 82vw;
     margin: 0 auto;
     margin-top: 54vw;
@@ -2426,6 +2438,7 @@ input{
     height: 100vh;
     background: rgba(81, 81, 81, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .sn-device-cap-header__link {
@@ -2617,6 +2630,7 @@ input{
     height: 100vh;
     background: rgba(81, 81, 81, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .v2-help-contant {
@@ -2773,6 +2787,7 @@ input{
     height: 100vh;
     background: rgba(178, 149, 83, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .v2-help-contant__txt-cap {
@@ -2839,6 +2854,7 @@ input{
     height: 100vh;
     background: rgba(56, 150, 30, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .v2-help-contant__image {
@@ -2913,6 +2929,7 @@ input{
     height: 100vh;
     background: rgba(47, 126, 188, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .v2-help-contant__circle_blue {
@@ -2946,6 +2963,7 @@ input{
     height: 100vh;
     background: rgba(178, 38, 18, 0.52);
     backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .v2-help-contant__fuel {

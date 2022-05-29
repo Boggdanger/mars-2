@@ -1074,6 +1074,7 @@ input{
     height: 200%;
     z-index: -1;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     transform: rotate(9.5deg);
 }
 
@@ -1201,6 +1202,7 @@ input{
     outline: 1.9vw solid rgba(225, 236, 239, 0.15);
     padding-top: 1.6vw;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .s4-centr-card-circle__leaf {
@@ -1561,6 +1563,7 @@ input{
     outline: 2.9vw solid rgba(225, 236, 239, 0.15);
     padding-top: 1.6vw;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     margin-top: 1vw;
 }
 
@@ -1608,6 +1611,7 @@ input{
     position: absolute;
     background: rgba(84, 171, 90, 0.44);
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
     justify-content: center;
