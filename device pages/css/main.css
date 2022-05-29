@@ -69,11 +69,19 @@ input{
 /*Specification end*/
 
 /* MARS-v2-s0-device */
+.v2-s0-device_bg {
+    background: #1d1e20;
+}
+
 .v2-s0-device {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     height: auto;
     background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
+}
+
+.v2-s0-device_padding {
+    padding-bottom: 22.2vw;
 }
 
 .v2-s0-device-header {
@@ -137,6 +145,10 @@ input{
 }
 
 @media (min-width: 359px) and (min-height: 700px) { 
+    .v2-s0-device_padding {
+        padding-bottom: 20.2vw;
+    }
+
     .v2-s0-device-logo {
         margin-top: 68vw;
     }
@@ -147,6 +159,10 @@ input{
 }
 
 @media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-s0-device_padding {
+        padding-bottom: 12.2vw;
+    }
+
     .v2-s0-device-header {
         padding: 2vw 2.35vw 0 0;
     }
@@ -176,6 +192,10 @@ input{
 }
 
 @media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-s0-device_padding {
+        padding-bottom: 16.5vw;
+    }
+
     .v2-s0-device-logo {
         margin-top: 47vw;
     }
@@ -186,6 +206,10 @@ input{
 }
 
 @media (min-width: 799px) and (min-height: 1279px) { 
+    .v2-s0-device_padding {
+        padding-bottom: 20.5vw;
+    }
+
     .v2-s0-device-logo {
         margin-top: 37vw;
     }
@@ -196,6 +220,10 @@ input{
 }
 
 /* MARS-v2-s2a-device-cap */
+.s2a-device-cap_bg {
+    background: #252420;
+}
+
 .s2a-device-cap {
     width: 100%;
     height: 100vh;
@@ -208,6 +236,7 @@ input{
     align-items: center;
     padding: 6vw 2.35vw 0 0;
     position: relative;
+    padding-bottom: 1.5vw;
 }
 
 .s2a-device-cap-header__title-wrapper {
@@ -592,6 +621,10 @@ input{
 }
 
 @media (min-width: 359px) and (min-height: 700px) { 
+    .s2a-device-cap {
+        padding-bottom: 4vw;
+    }
+
     .s2a-device-cap-subhead {
         margin-top: 8vw;
     }
@@ -614,6 +647,10 @@ input{
 }
 
 @media (min-width: 767px) and (min-height: 1023px) { 
+    .s2a-device-cap {
+        padding-bottom: 1.5vw;
+    }
+
     .s2a-device-cap-header {
         padding: 4vw 2.35vw 0 0;
     }
@@ -726,6 +763,10 @@ input{
 }
 
 @media (min-width: 719px) and (min-height: 1279px) { 
+    .s2a-device-cap {
+        padding-bottom: 1vw;
+    }
+
     .s2a-device-cap-subhead {
         margin-top: 2vw;
     }
@@ -744,6 +785,10 @@ input{
 }
 
 @media (min-width: 799px) and (min-height: 1279px) { 
+    .s2a-device-cap {
+        padding-bottom: 1.5vw;
+    }
+
     .s2a-device-cap-list__item {
         height: 21vw;
     }
@@ -838,9 +883,13 @@ input{
 
 
 /* MARS-v2-s2a-device-vet-popup */
+.s2a-device-cap-vet_bg {
+    background: #1f2720;
+}
+
 .s2a-device-cap-vet {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     height: auto;
     background: url('../img/MARS-v2-s2a-device-vet-popup_bg.png') no-repeat center center/cover;
 }
@@ -967,7 +1016,7 @@ input{
 }
 
 .s2a-device-cap-bot-team_vet {
-    margin-top: 4.5vw;
+    margin-top: 4.2vw;
 }
 
 .s2a-device-cap-bot-team {
@@ -991,7 +1040,7 @@ input{
     }
 
     .s2a-device-cap-bot-team_vet {
-        margin-top: 12.5vw;
+        margin-top: 15.5vw;
     }
 }
 
@@ -1036,7 +1085,7 @@ input{
     }
 
     .s2a-device-cap-bot-team_vet {
-        margin-top: 3vw;
+        margin-top: 4.2vw;
     }
 
     .s2a-device-cap-bot-team {
@@ -1056,7 +1105,7 @@ input{
     }
 
     .s2a-device-cap-bot-team_vet {
-        margin-top: 5.5vw;
+        margin-top: 6.3vw;
     }
     
 }
@@ -1065,6 +1114,9 @@ input{
     .s2a-device-popup-contant__img {
         width: 37vw;
         height: 37vw;
+    }
+    .s2a-device-cap-bot-team_vet {
+        margin-top: 6.5vw;
     }
 }
 
@@ -1411,9 +1463,13 @@ input{
 }
 
 /* MARS-v2-s2a-device-pil-popup */
+.s2a-device-cap-pil_bg {
+    background: #1c2431;
+}
+
 .s2a-device-cap-pil {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     height: auto;
     background: url('../img/MARS-v2-s2a-device-pil-popup_bg.png') no-repeat center center/cover;
 }
@@ -1449,21 +1505,13 @@ input{
 }
 
 /* MARS-v2-s2a-device-pilcap */
+.s2a-device-cap-pilcap_bg {
+    background: #1b2330;
+}
+
 .s2a-device-cap-header-veteng-title_font {
     font-size: 8vw;
 }
-
-/* .s2a-device-cap-header-veteng-title__item_bg-pil {
-    width: 37vw;
-    height: 12vw;
-    background: #735105;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2vw;
-    margin-right: 2vw;
-} */
 
 .veteng__title-one_bg-brown {
     height: 12vw;
@@ -1584,6 +1632,10 @@ input{
 }
 
 /* MARS-v2-s2a-device-engvet */
+.s2a-device-engvet_bg {
+    background: #2b1e1d;
+}
+
 .s2a-device-engvet {
     width: 100%;
     height: 100vh;
@@ -1852,7 +1904,15 @@ input{
 
 /* MARS-v2-s2b-device */
 .sn-device_bg {
+    background: #5a2a11;
+}
+
+.sn-device-bg {
     background: url('../img/sn-device_bg.jpg') no-repeat center center/cover;
+}
+
+.sn-device_dev {
+    padding-bottom: 18vw;
 }
 
 .sn-device {
@@ -1862,6 +1922,10 @@ input{
     background: rgba(71, 31, 10, 0.69);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
+}
+
+.sn-device_padding {
+    padding-bottom: 6vw;
 }
 
 .sn-device-cap-header {
@@ -1998,7 +2062,21 @@ input{
     padding-left: 1vw;
 }
 
+@media (min-width: 359px) and (min-height: 779px) { 
+    .sn-device_dev {
+        padding-bottom: 57vw;
+    }
+}
 
+@media (min-width: 375px) and (min-height: 667px) { 
+    .sn-device_padding {
+        padding-bottom: 5.4vw;
+    }
+
+    .sn-device_dev {
+        padding-bottom: 8.4vw;
+    }
+}
 
 
 @media (min-width: 767px) and (min-height: 1023px) {
@@ -2042,7 +2120,27 @@ input{
     }
 }
 
+@media (min-width: 719px) and (min-height: 1279px) {
+    .sn-device_dev {
+        padding-bottom: 18vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) {
+    .sn-device_dev {
+        padding-bottom: 35vw;
+    }
+}
+
 /* MARS-v2-s3-device-success */
+.v2-s0-device_succ-bg {
+    background: #1e1f21;
+}
+
+.v2-s0-device_succ {
+    padding-bottom: 23vw;
+}
+
 .s3-device-success-green {
     background: rgba(83, 193, 27, 0.52);
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5);
@@ -2084,6 +2182,11 @@ input{
     .s3-device-success-desc {
         margin-top: 40vw;
     }
+
+    .v2-s0-device_succ {
+        padding-bottom: 28vw;
+    }
+    
 }
 
 @media (min-width: 767px) and (min-height: 1023px) { 
@@ -2094,12 +2197,21 @@ input{
     .s3-device-success-desc {
         margin-top: 20vw;
     }
+
+    .v2-s0-device_succ {
+        padding-bottom: 11.7vw;
+    }
 }
 
-@media (min-width: 719px) and (min-height: 1279px) { 
+@media (min-width: 719px) and (min-height: 1279px) {
+    .v2-s0-device_succ {
+        padding-bottom: 11vw;
+    }
+    
     .s3-device-success-green {
         margin-top: 52vw;
     }
+    
     
 }
 
@@ -2107,6 +2219,10 @@ input{
     .s2a-device-popup-contant__img {
         width: 37vw;
         height: 37vw;
+    }
+
+    .v2-s0-device_succ {
+        padding-bottom: 20.2vw;
     }
 }
 
@@ -2158,7 +2274,7 @@ input{
     font-weight: 700;
     padding-top: 1.2vw;
     margin: 0 auto;
-    margin-top: 9vw;
+    margin-top: 8.7vw;
 }
 
 .s2b-device__digit-place {
@@ -2200,6 +2316,11 @@ input{
     .s4-device-img-item {
         margin-top: 42vw;
     }
+
+    
+    .s4-device-leaf_margin {
+        margin-top: 15.7vw; 
+    }
     
 }
 
@@ -2230,6 +2351,10 @@ input{
     .s4-device-img-item {
         margin-top: 10vw;
     }
+
+    .s4-device-leaf_margin {
+        margin-top: 8.7vw;
+    }
     
 }
 
@@ -2241,6 +2366,10 @@ input{
         margin-top: 6vw;
         height: 58vw;
         object-fit: contain;
+    }
+
+    .s4-device-leaf_margin {
+        margin-top: -1vw;
     }
     
 }
@@ -2277,7 +2406,7 @@ input{
 @media (min-width: 359px) and (min-height: 700px) { 
     .s4-device-failed {
         margin-top: 58vw;
-        margin-bottom: 55vw;
+        margin-bottom: 61vw;
     }
 }
 
@@ -2298,7 +2427,7 @@ input{
 @media (min-width: 799px) and (min-height: 1279px) { 
     .s4-device-failed {
         margin-top: 30vw;
-        margin-bottom: 37.6vw;
+        margin-bottom: 37vw;
     }
 }
 
@@ -2313,7 +2442,7 @@ input{
     width: 85%;
     margin: 0 auto;
     margin-top: 6vw;
-    height: 47vw;
+    height: 48vw;
 }
 
 .s5-device-animal__item {
@@ -2377,8 +2506,17 @@ input{
 }
 
 @media (min-width: 359px) and (min-height: 779px) { 
+    .s5-device-animal__item {
+        width: 26vw;
+        height: 26vw;
+    }
+
+    .s5-device-animal {
+        height: 83vw;
+    }
+
     .s5-device-leaf {
-        margin-top: 16vw;
+        margin-top: 6vw;
     }
 }
 
@@ -2390,7 +2528,8 @@ input{
 
     .s5-device-animal {
         width: 94%;
-        height: 13vw;
+        height: 15.5vw;
+        margin-bottom: 0vw;
     }
 
     .s5-device-leaf {
@@ -2399,14 +2538,37 @@ input{
 }
 
 @media (min-width: 719px) and (min-height: 1279px) { 
+    .s5-device-animal {
+        margin-bottom: 0vw;
+    }
+
+    .s5-device-animal__item {
+        width: 24vw;
+        height: 24vw;
+    }
+
     .s5-device-leaf {
         margin-top: 2vw;
+    }
+
+    .s5-device-animal {
+        width: 94%;
+        height: 48vw;
     }
 }
 
 @media (min-width: 799px) and (min-height: 1279px) { 
     .s5-device-leaf {
         margin-top: 8vw;
+    }
+
+    .s5-device-animal {
+        height: 36vw;
+    }
+
+    .s5-device-animal__item {
+        width: 20vw;
+        height: 20vw;
     }
 }
 
@@ -2436,6 +2598,10 @@ input{
 }
 
 /* MARS-v2-team */
+.v2-team-bg_padding {
+    padding-bottom: 14vw;
+}
+
 .v2-team-bg-bg-img {
     background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
 }
@@ -2544,6 +2710,10 @@ input{
 }
 
 @media (min-width: 359px) and (min-height: 700px) { 
+    .v2-team-bg_padding {
+        padding-bottom: 11vw;
+    }
+
     .v2-team-content {
         padding-top: 11vw;
     }
@@ -2558,6 +2728,10 @@ input{
 }
 
 @media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-team-bg_padding {
+        padding-bottom: 6.5vw;
+    }
+
     .v2-team-content {
         padding-top: 3vw;
     }
@@ -2584,6 +2758,10 @@ input{
 }
 
 @media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-team-bg_padding {
+        padding-bottom: 9vw;
+    }
+
     .v2-team-leaf {
         margin-top: 9vw;
     }
@@ -2593,10 +2771,24 @@ input{
     }
 }
 
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .v2-team-bg_padding {
+        padding-bottom: 19vw;
+    }
+}
+
 /* MARS-v2-team-popup */
 .v2-team-bg_flex {
     display: flex;
     align-items: center;
+}
+
+.v2-team-pop_bg {
+    background: #38393a;
+}
+
+.v2-team-popup {
+    padding: 54.8vw 0;
 }
 
 .v2-team-popup__title {
@@ -2621,14 +2813,46 @@ input{
     margin-top: 9vw;
 }
 
+@media (min-width: 375px) and (min-height: 667px) { 
+    .v2-team-popup {
+        padding: 54.6vw 0;
+    }
+}
+
 
 @media (min-width: 359px) and (min-height: 700px) { 
     .v2-team-btns_margin {
         margin-top: 13vw;
     }
+
+    .v2-team-popup {
+        padding: 72.2vw 0;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .v2-team-popup {
+        padding: 30.4vw 0;
+    }
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .v2-team-popup {
+        padding: 52.4vw 0;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .v2-team-popup {
+        padding: 43.7vw 0;
+    }
 }
 
 /* MARS-v2-help */
+.MARS-v2-help_bg {
+    background: #363738;
+}
+
 .MARS-v2-help {
     background: url('../img/MARS-v2-s0-device_bg.jpg') no-repeat center center/cover;
 }
@@ -2872,6 +3096,10 @@ input{
 }
 
 /* MARS-v2-help-vet */
+.MARS-v2-help-vet_bg {
+    background: #28591c;
+}
+
 .MARS-v2-help-vet {
     background: url('../img/MARS-v2-help-vet.jpg') no-repeat center center/cover;
 }
@@ -2948,6 +3176,10 @@ input{
 }
 
 /* MARS-v2-help-pil */
+.MARS-v2-help-pil_bg {
+    background: #204663;
+}
+
 .MARS-v2-help-pil {
     background: url('../img/MARS-v2-help-pil__bg.png') no-repeat center center/cover;
 }
@@ -2983,6 +3215,10 @@ input{
 }
 
 /* MARS-v2-help-eng */
+.MARS-v2-help-eng_bg {
+    background:#682015;
+}
+
 .MARS-v2-help-eng {
     background: url('../img/MARS-v2-help-eng__bg.png') no-repeat center center/cover;
 }
