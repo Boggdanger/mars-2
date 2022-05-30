@@ -1713,11 +1713,14 @@ input{
     top: 16vw;
     font-weight: 700;
     font-size: 9vw;
+    z-index: 9;
 }
 
 .s2a-device-popup-barrel__img {
     width: 100%;
     object-fit: contain;
+    z-index: 5;
+    position: relative;
 }
 
 .s2a-device-popup-barrel__progrees-wrapper {
@@ -1729,7 +1732,7 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    z-index: -1;
+    z-index: 2;
 }
 
 .s2a-device-popup-barrel__progrees {
@@ -3251,6 +3254,7 @@ input{
     left: 0;
     right: 0;
     margin: 0 auto;
+    z-index: 2;
 }
 
 .v2-help-contant__progress-inner {
@@ -3268,7 +3272,7 @@ input{
     width: 100%;
     height: 20%;
     background: #3C0803;
-    z-index: -1;
+    z-index: 1;
 }
 
 .v2-help-contant__drop_red {
